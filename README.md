@@ -1,12 +1,3 @@
-![Banner tasa de cambio  Degradado](https://github.com/user-attachments/assets/f5bdb4b3-bed5-4d8e-b4ba-967e8c2a6ca1)
-
-
-<p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=Por%20Mejorar&color=LIGHTBLUE&style=for-the-badge" />
-   <img src="https://img.shields.io/badge/language-Java-007396?style=for-the-badge"/>
-</p>
-
-
 ## Challenge: Conversor de Moneda
 Este conversor de monedas permite realizar conversiones actualizadas en tiempo real
 entre diferentes divisas. Utiliza la API de Open Exchange Rates, en su plan gratuito,
@@ -56,23 +47,6 @@ transacción.
 
 * Una vez estes ahi ve a `file` y descarga el archivo `jar (291 KB)`, agrégalo a tu proyecto en el IDE que estés usando.
 
-> [!NOTE]
->  Esta es la forma en que instalé la biblioteca, aunque también se puede hacer utilizando gestores de dependencias como Maven u otros.
-
-###  📁 📂 Clonar el repositorio    
-1. Crea una carpeta en tu ordenador y luego clona este repositorio:
-   
-   ```
-   https://github.com/Erika-Gimenez/Conversor-de-Moneda.git
-   
-   ```
-2. Navega hasta la carpeta del proyecto.
-
-    ```
-    cd ConversorDeMoneda
-    
-    ```
-4. Ejecuta la clase Principal que contiene el método main y sigue las intrucciones de la consola.
 
  ##  🔩 Funcionalidades
  
@@ -165,24 +139,4 @@ incluye la validación de las entradas, visualización del menu y el historial d
 4. **cliente:** Contiene la clase `TipoDeCambioApi` que maneja la solicitud HTTP a la API y la clase `Serializacion` para guardar la información del historial de conversiones en un archivo JSON.
 5. **excepciones:** Contiene excepciones personalizadas como `ErrorEnPeticionNullException`, `ErrorEnMontoInvalidoException` y por ultimo `ErrorEnValidacionDeEntradaException`.
 
-> [!NOTE]
->  Podría agregar un nuevo paquete llamado presentacion y nuevas clases para no tener toda la lógica en la clase actual de presentación.
->  Considerar tener una clase padre o una interfaz en el futuro paquete presentacion para mejorar la organización y reutilización del código.
->  Introducir más excepciones para validar los parámetros o atributos, mejorando la robustez del programa.
->  Experimentar con una interfaz gráfica en el futuro para mejorar la experiencia del usuario.
 
-## 🙌🏽 Contribuciones 
-
-¡Me encantaría tu ayuda para mejorar este proyecto! Puedes contribuir de varias maneras:
-* Si encuentras algún error o problema.
-* Si tienes ideas para nuevas funcionalidades o mejoras.
-- Porfavor crea un issue para discutirlo. Me encanta recibir nuevas ideas.
-
-## ✒️ Autores 
-
-[<img src="https://github.com/user-attachments/assets/1e99f8e5-f229-4128-837a-554d2844c64c" width=115><br><sub>Gimenez Erika</sub>](https://github.com/Erika-Gimenez)
-
-## 😊 Contacto 
-
-* [Linkedin](https://www.linkedin.com/in/erika-gimenez/).
-* [GitHub](https://github.com/Erika-Gimenez).
